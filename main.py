@@ -4,7 +4,6 @@ import traceback
 from CoreFuncs.Settings import *
 from urllib.request import urlopen
 
-
 def simplify(call):
     try:
         return ast.literal_eval(call.data)
