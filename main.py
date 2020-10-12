@@ -4,12 +4,11 @@ import traceback
 from CoreFuncs.Settings import *
 from urllib.request import urlopen
 
-
 def simplify(call):
     try:
         return ast.literal_eval(call.data)
     except:
-        return ['0', '0']
+        return ['0', '11']
 
 def btn(text=None, callback_data=None, url=None, Home=False, Dummy=False):
     if Home:
