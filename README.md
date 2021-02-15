@@ -7,23 +7,24 @@ This project implements a currency converter program using python3 and Telegram 
 
 Clone this repo and use [pip](https://pip.pypa.io/en/stable/) to install requirements -
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 Create a new folder named "res" and make 3 json files inside it
 
-bash
+```bash
 'res/Currency.json'
 'res/settings.json'
 'res/UserChoice.json'
+```
 
 Get a bot "Token" from [BotFather](https://core.telegram.org/bots#:~:text=for%20existing%20ones.-,Creating%20a%20new%20bot,mentions%20and%20t.me%20links.) and add it to 'res/settings.json'
-bash
+```bash
 {
     "Token":"YourTokenHere"
 }
-
+```
 Once your bot token is in place you can run the project.
 
 ## Usage
